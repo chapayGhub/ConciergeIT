@@ -5,3 +5,26 @@ objc[22404]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.a
 2013-12-19 17:30:39.953 ConciergeIT[22404:80b] Multi-tasking -> Device: YES, App: YES
 2013-12-19 17:30:40.034 ConciergeIT[22404:80b] Resetting plugins due to page load.
 2013-12-19 17:30:40.212 ConciergeIT[22404:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/index.html
+objc[27674]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2013-12-19 20:04:32.248 ConciergeIT[27674:80b] Cannot find executable for CFBundle 0xb2a97a0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/MusicLibrary.axbundle> (not loaded)
+2013-12-19 20:04:32.255 ConciergeIT[27674:80b] Cannot find executable for CFBundle 0xb2c14c0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2013-12-19 20:04:32.268 ConciergeIT[27674:80b] Cannot find executable for CFBundle 0x109beb50 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2013-12-19 20:04:32.316 ConciergeIT[27674:80b] Multi-tasking -> Device: YES, App: YES
+2013-12-19 20:04:32.540 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:04:32.677 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/index.html
+2013-12-19 20:05:32.847 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:05:32.886 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/category.html
+2013-12-19 20:06:55.540 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:06:55.570 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/history.html
+2013-12-19 20:06:56.953 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:06:56.983 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/category.html
+2013-12-19 20:06:57.453 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:06:57.480 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/index.html
+2013-12-19 20:07:04.671 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:07:04.702 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/category.html
+2013-12-19 20:07:05.459 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:07:05.487 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/history.html
+2013-12-19 20:07:06.368 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:07:06.397 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/category.html
+2013-12-19 20:07:08.886 ConciergeIT[27674:80b] Resetting plugins due to page load.
+2013-12-19 20:07:08.923 ConciergeIT[27674:80b] Finished load of: file:///Users/huacyang/Library/Application%20Support/iPhone%20Simulator/7.0.3/Applications/8DAE6C77-617C-4225-A58B-C30654E43039/ConciergeIT.app/www/listing.html

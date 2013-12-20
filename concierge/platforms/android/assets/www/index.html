@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ><!--<![endif]-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    
+    <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/class.css" />
+    <link rel="stylesheet" type="text/css" href="css/override.css" />
+    <script src="js/vendor/custom.modernizr.js"></script>
+
+    <title>Concierge IT</title>
+</head>
+<body>
+    <!-- Main Content Area
+    ====================== -->
+    <div class="">
+
+        <form id="form-login" action="javascript:updateLogin()" method="POST">
+            <div class="large-12 small-12 columns shift">
+                <div class="box-main bg-blue">
+                    <img src="img/concierge_logo.png" />
+                    <h2><i class="fa fa-suitcase"></i> Hotel Services at Your Fingertips</h2>
+                    <input id="regID" name="regID" type="text" placeholder="Guest ID" />
+                </div>
+            </div>
+
+            <div class="large-6 small-6 columns center">
+                <button type="button" onclick="javascript:resetForm('form-login')">Reset</button>
+            </div>
+            <div class="large-6 small-6 columns center">
+                <button>Submit</button>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- Import JavaScript files -->
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script>$(document).foundation();</script>
+    <script type="text/javascript" src="js/override.js"></script>
+    <script type="text/javascript" src="js/functions.js"></script>
+</body>
+</html>

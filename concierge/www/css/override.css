@@ -1,0 +1,301 @@
+
+::-webkit-input-placeholder {
+	font-size: 50px;
+	padding-top: 15px;
+}
+
+a {
+	font-size: 35px;
+}
+
+body {
+	background-color: black;
+}
+
+button {
+	font-size: 50px;
+	width: 100%;
+	height: 220px;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+
+h3 {
+	font-size: 50px;
+	color: white;
+}
+
+label.inner {
+	font-size: 30px;
+}
+
+p {
+	font-size: 40px;
+}
+
+.box {
+	margin-bottom: 20px;
+}
+
+.box-long {
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+.box-long p {
+	padding-top: 50px;
+}
+
+.box-long .small-4 {
+	text-align: center;
+}
+
+.box-long .large-5 p {
+	font-size: 50px;
+	color: white;
+	margin-top: -20px;
+	margin-bottom: -60px;
+}
+
+.box-longest {
+	height: 240px;
+	margin-bottom: 20px;
+}
+
+.box-longest h3 {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.box-longest p {
+	padding-top: 0px;
+	padding-left: 20px;
+	margin-top: -10px;
+	margin-bottom: -15px;
+}
+
+.box-longest p:first-child {
+	height: 80px;
+	overflow: scroll;
+}
+
+.box-longest .small-4 {
+	text-align: center;
+}
+
+.box-longest .large-5 p {
+	font-size: 50px;
+	color: white;
+	margin-top: -20px;
+	margin-bottom: -60px;
+}
+
+.box-main {
+	margin-bottom: 20px;
+}
+
+.shift {
+	height: 480px;
+}
+
+.shift .box-main {
+	height: 400px !important;
+}
+
+input[type='checkbox'] {
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    border: 2px solid #1BA1E2;
+}
+
+input[type="text"] {
+	padding: 40px 20px;
+	line-height: 40px;
+	font-size: 60px;
+}
+
+.label {
+	font-size: 20px;
+}
+
+.navigation {
+	height: 0px;
+	margin-top: 15px;
+}
+
+.navigation .box h2 {
+	padding-top: 80px;
+}
+
+.row {
+	max-width: 100%;
+}
+
+#form-login input,
+#form-purchase input,
+#form-purchase select {
+	text-align: center;
+	border-width: 5px;
+	border-color: #1BA1E2;
+}
+
+#form-login > div > div {
+	margin-bottom: 20px;
+	height: 250px;
+}
+
+#form-purchase > div > div {
+	margin-bottom: 20px;
+}
+
+#item_price {
+	text-align: right;
+	margin-right: 8px;
+	color: white;
+}
+
+@media only screen {
+
+	label {
+		font-size: 50px;
+		padding-top: 0px;
+	}
+
+	.box-main {
+		height: 450px;
+	}
+
+	.box {
+		width: 101.5%;
+		height: 440px;
+	}
+
+	.box img,
+	.box-main img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 75px;
+		width: 75%;
+		height: 75%;
+	}
+
+	.box p.title-box,
+	.box-main p.title {
+		color: white;
+		font-weight: 900;
+		text-align: center;
+		margin-top: 30px;
+	}
+
+	.center-vertical {
+		padding-top: 40%;
+	}
+
+	.maximize-left {
+		width: 50%;
+		margin-top: -20px;
+	}
+
+	.maximize-right {
+		margin-top: 120px;
+	}
+
+	.shift-left .box {
+		margin-left: -5px;
+	}
+
+	#item_name {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	#form-login > div > div {
+		padding-top: 30px;
+	}
+
+	#form-login > div > div input {
+		width: 100%;
+	}
+
+	#form-purchase > div > div {
+		height: 450px;
+		padding-top: 60px;
+	}
+}
+
+@media only screen and (min-width: 75.063em) {
+
+	label {
+		font-size: 70px;
+		padding-top: 5px;
+	}
+
+	.box-main {
+		height: 360px;
+	}
+	
+	.box {
+		width: 100%;
+		height: 350px;
+	}
+
+	.large-6 img {
+		width: 35%;
+		margin-left: 5%;
+	}
+
+	.large-6 p.title-box {
+		text-align: left;
+		margin-left: 15%;
+	}
+
+	.center-vertical {
+		padding-top: 5%;
+	}
+
+	.shift-left .box {
+		margin-left: 0px;
+	}
+
+	.maximize-left {
+		width: 50%;
+		margin-left: 50px;
+		margin-top: -50px;
+	}
+
+	.maximize-right {
+		margin-top: -200px;
+	}
+
+	#form-login label {
+		text-align: center;
+	}
+
+	#form-login > div > div {
+		padding-top: 80px;
+	}
+
+	#form-purchase label {
+		text-align: center;
+	}
+
+	#form-purchase > div > div {
+		height: 300px;
+		padding-top: 50px;
+	}
+}
+
+.navigation .box {
+	text-align: center;
+	height: 220px;
+}

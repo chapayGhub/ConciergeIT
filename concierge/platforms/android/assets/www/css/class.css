@@ -1,0 +1,47 @@
+.bg-blue {
+	background-color: #1BA1E2;
+}
+
+.bg-brown {
+	background-color: #A05000;
+}
+
+.bg-green {
+	background-color: #339933;
+}
+
+.bg-lime {
+	background-color: #8CBF26;
+}
+
+.bg-magenta {
+	background-color: #FF0097;
+}
+
+.bg-orange {
+	background-color: #F09609;
+}
+
+.bg-pink {
+	background-color: #E671B8;
+}
+
+.bg-purple {
+	background-color: #A200FF;
+}
+
+.bg-red {
+	background-color: #E51400;
+}
+
+.bg-teal {
+	background-color: #00ABA9;
+}
+
+.bg-yellow {
+	background-color: #FFFF00;
+}
+
+.center {
+	text-align: center;
+}

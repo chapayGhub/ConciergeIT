@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" ><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" ><!--<![endif]-->
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    
+    <link rel="stylesheet" type="text/css" href="css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="css/class.css" />
+    <link rel="stylesheet" type="text/css" href="css/override.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <script src="js/vendor/custom.modernizr.js"></script>
+
+    <title>Concierge IT</title>
+</head>
+<body>
+    <!-- Navigation Area
+    ==================== -->
+    <div class="navigation">
+        <div class="large-6 small-6 columns" onclick="window.location='listing.html'">
+            <div class="box bg-blue">
+                <h2><i class="fa fa-home"></i> Category</h2>
+            </div>
+        </div>
+        <div class="large-6 small-6 columns shift-left" onclick="window.location='history.html'">
+            <div class="box bg-blue">
+                <h2><i class="fa fa-bar-chart-o"></i> History</h2>
+            </div>
+        </div>
+    </div>
+    <!-- Main Content Area
+    ====================== -->
+    <div class="large-12 small-12 columns">
+        <div class="box-main bg-blue">
+            <div id="item_name" class="large-12 small-12 columns">
+                <h1>Concierge IT</h1>
+            </div>
+            <div id="item_desc" class="large-12 small-12 columns">
+                <p><i class="fa fa-suitcase"></i> Hotel Services at Your Fingertips</p>
+            </div>
+            <div id="item_price" class="large-12 small-12 columns">
+                <p>$$</p>
+            </div>
+        </div>
+    </div>
+    <form id="form-purchase" action="javascript:submit()" method="POST">
+        <div class="large-12 small-12 columns">
+            <div class="large-12 small-12 columns bg-green">
+                <div class="large-4 small-12 columns">
+                    <label>Item Amount:</label>
+                </div>
+                <div class="large-8 small-12 columns">
+                    <input id="quantity" type="text" placeholder="Enter number of items to purchase." />
+                </div>
+                <div class="large-4 small-12 columns">
+                    <label>Message:</label>
+                </div>
+                <div class="large-8 small-12 columns">
+                    <input id="note" type="text" placeholder="(OPTIONAL) Enter any messages." />
+                </div>
+            </div>
+        </div>
+        <div class="large-6 small-6 columns center">
+            <button type="button" onclick="window.location='listing.html'">Cancel</button>
+        </div>
+        <div class="large-6 small-6 columns center">
+            <button>Submit</button>
+        </div>
+    </form>
+
+<!-- Import JavaScript files -->
+<script src="js/vendor/jquery.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>$(document).foundation();</script>
+<script type="text/javascript" src="js/override.js"></script>
+<script type="text/javascript" src="js/functions.js"></script>
+<script>
+updateItemBanner();
+</script>
+</body>
+</html>
